@@ -1,0 +1,46 @@
+
+  #heading{
+    color: beige;
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  input,
+  select {
+    display: block;
+    margin: 15px 0px;
+    font-size: 20px;
+    padding: 2%;
+  }
+  option {
+    font-size: 25px;
+  }
+  form {
+    width: 400px;
+    border: 1px solid rgb(230, 230, 230);
+    margin: 3% auto;
+    padding: 3%;
+    background:whitesmoke; 
+  } 
+  #submit {
+    width: 70%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+  } 
+  #submit:hover{
+    cursor: pointer;
+    background: aqua;
+    color: black;
+  }
+
+
+@media screen and (max-width: 600px) {
+  form {
+      max-width: 90%;
+  }
+}
+
+  
