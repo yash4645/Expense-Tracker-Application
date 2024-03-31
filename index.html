@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expence Tracker</title>
+     <link rel="stylesheet" href="commonStyles.css"> 
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div id="links">
+      <div><a href="index.html">Home</a></div>
+      <div><a href="history.html">History</a></div>
+      <div><a href="delete.html">Delete</a></div>
+    </div>
+    <div id="heading">
+      <h1>WEL COME TO EXPENSE TRACKER APPLICATION</h1>
+      </div>
+
+    <form action="" id="form">
+      <h2>Add new Transactions</h2>
+      <input placeholder="Enter Name" id="name" name="name" type="text" />
+      <input placeholder="Enter Expence Category" type="text" name="category" id="category" />
+      <input placeholder="Enter date" type="date" id="date">
+      <select name="type" id="type">
+        <option value="NONE">Type</option>
+        <option value="Income">Income</option>
+        <option value="Expence">Expence</option>
+      </select>
+      <input id="Amount"
+        type="number"
+        placeholder="Enter the amount"
+      />
+      <input id="submit" type="submit" name="submit" value="Submit" />
+    </form>
+
+  </body>
+  <script src="index.js"></script>
+</html>
