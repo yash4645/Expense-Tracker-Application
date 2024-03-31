@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Database</title>
+    <link rel="stylesheet" href="commonStyles.css" />
+    <link rel="stylesheet" href="history.css">
+  </head>
+
+  <body>
+    <div id="links">
+      <div><a href="index.html">Home</a></div>
+      <div><a href="history.html">History</a></div>
+      <div><a href="delete.html">Delete</a></div>
+    </div>
+
+    <div id="filtering">
+      <div id="filterid">
+        <label for="filter">Filter by Type:</label>
+        <select id="filter">
+            <option value="all">All</option>
+            <option value="Income">Income</option>
+            <option value="Expence">Expense</option>
+        </select>
+      </div>
+      <div id="sortid">
+        <label for="sort">Sort by:</label>
+        <select id="sort">
+            <option value="date">Date</option>
+            <option value="type">Type</option>
+            <option value="amount">Amount</option>
+        </select>
+  
+      </div>
+  </div>
+
+
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Amount</th>
+            <th>Edit</th>
+          </tr>
+        </thead>
+        <tbody id="body">
+        </tbody>
+      </table>
+    </main>
+  </body>
+  <script src="history.js"></script>
+</html>
