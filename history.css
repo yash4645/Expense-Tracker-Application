@@ -1,0 +1,18 @@
+
+#filtering{
+    width: 90%;
+    height: 30px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin: auto;
+    margin-top: 3%;
+    justify-content:space-evenly;
+     padding: 1%; 
+    color: aqua;
+  
+}
+@media screen and (max-width: 480px) {
+    table {
+        font-size: 7px;
+    }
+}
