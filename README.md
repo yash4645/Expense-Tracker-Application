@@ -1,1 +1,2 @@
 # Expense-Tracker-Application
+This Expense Tracker Application is deaigned to help users manage their expenses effectively. it allow users to add, edit and delete transactions, providing a user-friendly interface for inputting expense details and displaying a summary of expenses. it checks all the feilds is filled or not and provids alert message for each transaction. it gives option to filter transactions and sort the transactions.
